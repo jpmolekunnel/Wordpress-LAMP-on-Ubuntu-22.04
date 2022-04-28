@@ -3,12 +3,12 @@
 php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
 
 #MySQL Settings
-mysql_root_password: "wordpressroot"
-mysql_db: "wordpress"
-mysql_user: "worduser"
-mysql_password: "worduser"
+mysql_root_password: "mysql_root_password"
+mysql_db: "wordpress_db_name"
+mysql_user: "wordpress_mysql_user_name"
+mysql_password: "wordpress_mysql_user_password"
 
 #HTTP Settings
-http_host: "myhost.com"
-http_conf: "myhost.conf"
+http_host: "hostname.com"
+http_conf: "hostname.conf"
 http_port: "80"
